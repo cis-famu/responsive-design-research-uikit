@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.0/dist/css/uikit.min.css" />
+<link rel="stylesheet" href="Responsivedesign.css"
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.17.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.17.0/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <header>
+        <div class="homepagehero">
+            <h1 style="text-align: center;" class="uk-heading-2xlarge">Tour Around the World</h1>
+        </div>
+    </header>
+    <body class="HPbody">
+        <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+            <div>
+                <div class="uk-tile uk-tile-primary">
+                    <p class="uk-h4"><a href="Canada.html">Canada</a> </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-tile uk-tile-muted">
+                    <p class="uk-h4"> <a href="Japan.html">Japan</a> </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-tile uk-tile-muted">
+                    <p class="uk-h4"> <a href="DR.html"> Dominican Republic</a> </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-tile uk-tile-primary">
+                    <p class="uk-h4"><a href="Brazil.html">Brazil</a> </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
